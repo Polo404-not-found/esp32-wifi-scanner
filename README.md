@@ -47,19 +47,14 @@ This project was built to:
 pio run --target upload
 pio device monitor --baud 115200
 ```
-## Add OLED/LCD display support.
-□ Add async scanning to avoid blocking.
-□ Add CSV export over serial.
-□ Add support for ESP32-C5 (5 GHz scanning).
-Legal notice
+## Roadmap
 
-This directory is intended for PlatformIO Test Runner and project tests.
+- [ ] Add OLED/LCD display support.
+- [ ] Add async scanning to avoid blocking.
+- [ ] Add CSV export over serial.
+- [ ] Add support for ESP32-C5 (5 GHz scanning).
 
-Unit Testing is a software testing method by which individual units of
-source code, sets of one or more MCU program modules together with associated
-control data, usage procedures, and operating procedures, are tested to
-determine whether they are fit for use. Unit testing finds problems early
-in the development cycle.
+## Legal notice
 
-More information about PlatformIO Unit Testing:
-- https://docs.platformio.org/en/latest/advanced/unit-testing/index.html
+This tool is intended for **educational purposes** and for auditing **your own networks**.
+...
